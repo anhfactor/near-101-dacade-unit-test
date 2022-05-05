@@ -1,9 +1,15 @@
+<h1 align="center">NEAR 101 Dacade unit test contract</h1>
+
 ## Table of Contents
+
+- [Introduction](#introduction)
+- [Project setup](#project-setup)
+- [Write a couple of tests for the contract](#write-a-couple-of-tests-for-the-contract)
 
 ### Introduction
 After finish course [101 NEAR from dacade](https://dacade.org/communities/near/courses/near-101/). I realized that the course has not yet implemented unit testing for smart contracts. In blockchain, writing unit tests is very important to increase security before publishing the contract on the mainnet. 
 
-The course using assembly script for smart contract and unit testing is provided by [as-pect](https://github.com/jtenner/as-pect) and the syntax resembles RSpec. The library is well [documented](https://tenner-joshua.gitbook.io/as-pect/) but sometimes the [tests for the testing library](https://github.com/jtenner/as-pect/tree/master/packages/assembly/assembly/__tests__) might be the best source of examples to help you learn quickly.
+The course using assembly script for smart contract, i plan to implement unit test by using [as-pect](https://github.com/jtenner/as-pect) and the syntax resembles RSpec. The library is well [documented](https://tenner-joshua.gitbook.io/as-pect/) but sometimes the [tests for the testing library](https://github.com/jtenner/as-pect/tree/master/packages/assembly/assembly/__tests__) might be the best source of examples to help you learn quickly.
 
 ### Project setup
 First copy the contract in folder smartcontract from [101 Near] https://github.com/dacadeorg/near-marketplace-dapp/tree/master/smartcontract and run ```yarn``` to install
@@ -104,5 +110,6 @@ Now to run test open your terminal and type
 yarn asp
 ```
 After the test is finished, you will see that the results of the passing tests will look like this:
+<img width="607" alt="Screen Shot 2022-05-05 at 15 44 55" src="https://user-images.githubusercontent.com/13186215/166892352-fdd0edc6-1a23-4c8d-9963-8fc14c8b59bf.png">
 
-You can refer [my unit test](https://github.com/anhfactor/danger-is-near/tree/master/assembly/__tests__), i've applied in this course.
+You can refer [my previous project unit test](https://github.com/anhfactor/danger-is-near/tree/master/assembly/__tests__), i've applied in this course.
