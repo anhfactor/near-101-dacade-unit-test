@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Project setup](#project-setup)
 - [Write a couple of tests for the contract](#write-a-couple-of-tests-for-the-contract)
+- [TLDR](#tldr)
 
 ### Introduction
 After finish course [101 NEAR from dacade](https://dacade.org/communities/near/courses/near-101/). I realized that the course has not yet implemented unit testing for smart contracts. In blockchain, writing unit tests is very important to increase security before publishing the contract on the mainnet. 
@@ -113,3 +114,11 @@ After the test is finished, you will see that the results of the passing tests w
 <img width="607" alt="Screen Shot 2022-05-05 at 15 44 55" src="https://user-images.githubusercontent.com/13186215/166892352-fdd0edc6-1a23-4c8d-9963-8fc14c8b59bf.png">
 
 You can refer [my previous project unit test](https://github.com/anhfactor/danger-is-near/tree/master/assembly/__tests__), i've applied in this course.
+
+### TLDR
+```
+git clone https://github.com/anhfactor/near-101-dacade-unit-test
+cd near-101-dacade-unit-test
+yarn
+yarn asp
+```
